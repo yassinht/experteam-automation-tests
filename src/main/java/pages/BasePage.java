@@ -9,5 +9,6 @@ public class BasePage {
 	
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
+		System.out.println("CI TEST RUN");
 	}
 }
